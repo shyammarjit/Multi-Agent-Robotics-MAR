@@ -1,4 +1,4 @@
-# Multi-Agent-Robotics-MAR
+# Multi-Agent-Robotics (MAR)
 In this repository We are using
 Linux (ubuntu-18.04)
 ROS
@@ -14,3 +14,6 @@ for that follow
 1. http://wiki.ros.org/catkin/Tutorials/create_a_workspace
 after creating catking worspace you need to create a package inside that workpace
 http://wiki.ros.org/ROS/Tutorials/CreatingPackage
+remeber for creating package you must follow this command
+$ catkin_create_pkg m2wr_description std_msgs urdf rospy roscpp
+after that you need to put URDF folder inside the 
