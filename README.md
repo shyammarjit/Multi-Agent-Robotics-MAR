@@ -20,3 +20,22 @@ $ git clone https://github.com/shyammarjit/Multi-Agent-Robotics-MAR
 ```
 
 6. check your [launch files](https://github.com/shyammarjit/Multi-Agent-Robotics-MAR/tree/main/catkin_ws/src/m2wr_description/launch)
+7. Launch rviz:
+```sh
+$ roslaunch m2wr_description rviz.launch 
+```
+
+8. Launch gazebo:
+```sh
+$ roslaunch gazebo_ros empty_world.launch
+```
+
+9. Load our model:
+```sh
+$ roslaunch m2wr_description spawn.launch 
+```
+
+10. Run the following code in order to control the robot using the keyboard:
+```sh
+$ rosrun teleop_twist_keyboard teleop_twist_keyboard.py
+```
