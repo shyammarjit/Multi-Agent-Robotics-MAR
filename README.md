@@ -9,5 +9,5 @@ for that follow this link http://wiki.ros.org/catkin/Tutorials/create_a_workspac
 after creating catkin workspace you need to create a package inside that workspace
 http://wiki.ros.org/ROS/Tutorials/CreatingPackage
 remember for creating a package you must follow this command
-'''$ catkin_create_pkg m2wr_description std_msgs urdf rospy roscpp'''
+```$ catkin_create_pkg m2wr_description std_msgs urdf rospy roscpp```
 after that, you need to copy the contents from my URDF folder []  and paste those inside your urdf folder.
