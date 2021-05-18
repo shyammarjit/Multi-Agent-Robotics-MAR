@@ -19,4 +19,4 @@ For git cloning this repository use the following command
 $ git clone https://github.com/shyammarjit/Multi-Agent-Robotics-MAR
 ```
 
-6.
+6. check your [launch files](https://github.com/shyammarjit/Multi-Agent-Robotics-MAR/tree/main/catkin_ws/src/m2wr_description/launch)
