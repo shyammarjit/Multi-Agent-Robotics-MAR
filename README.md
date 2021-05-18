@@ -11,6 +11,7 @@ http://wiki.ros.org/ROS/Tutorials/CreatingPackage
 remember for creating a package you must follow this command
 ```$ catkin_create_pkg m2wr_description std_msgs urdf rospy roscpp```
 after that, you need to copy the contents from my [m2wr_description](https://github.com/shyammarjit/Multi-Agent-Robotics-MAR/tree/main/catkin_ws/src/m2wr_description)  and paste those inside your m2wr_description folder.
+
 You need to check your catkin workspace content and whatever content are not present in your workspace just copy from my catkin workspace and paste it in the proper directory.
 For git cloning this repository use the following command
 ```$ git clone https://github.com/shyammarjit/Multi-Agent-Robotics-MAR```
