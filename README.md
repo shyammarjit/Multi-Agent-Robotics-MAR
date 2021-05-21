@@ -27,8 +27,8 @@ $ mkdir launch
 $ mkdir urdf
 ```
 after that, you need to copy the contents from my [worlds](https://github.com/shyammarjit/Multi-Agent-Robotics-MAR/tree/main/catkin_ws/src/worlds) folder to your folder.
-You need to copy the contents from my [launch](https://github.com/shyammarjit/Multi-Agent-Robotics-MAR/tree/main/catkin_ws/src/m2wr_description/launch) folder to your launch folder and also you need to copy the contents from my [urdf](https://github.com/shyammarjit/Multi-Agent-Robotics-MAR/tree/main/catkin_ws/src/m2wr_description/urdf) folder to your urdf folder.<br/>You need to check your catkin workspace content and whatever content are not present in your workspace just copy from my catkin workspace and paste it in the proper directory.
-6. check your [launch files](https://github.com/shyammarjit/Multi-Agent-Robotics-MAR/tree/main/catkin_ws/src/m2wr_description/launch)
+You need to copy the contents from my [launch](https://github.com/shyammarjit/Multi-Agent-Robotics-MAR/tree/main/catkin_ws/src/m2wr_description/launch) folder to your launch folder and also you need to copy the contents from my [urdf](https://github.com/shyammarjit/Multi-Agent-Robotics-MAR/tree/main/catkin_ws/src/m2wr_description/urdf) folder to your urdf folder.<br/>You need to check your catkin workspace content and whatever content are not present in your workspace just copy from my catkin workspace and paste it in the proper directory.<br/>
+6. check your [launch files](https://github.com/shyammarjit/Multi-Agent-Robotics-MAR/tree/main/catkin_ws/src/m2wr_description/launch)<br/>
 7. Launch rviz:
 ```sh
 $ roslaunch m2wr_description rviz.launch 
