@@ -1,4 +1,10 @@
 # Multi-Agent-Robotics (MAR)
+For git cloning this repository use the following command
+<br/>
+```sh
+$ git clone https://github.com/shyammarjit/Multi-Agent-Robotics-MAR
+```
+
 In this repository, We are using 
 1. [Linux (ubuntu-18.04)](https://www.youtube.com/watch?v=DC89AryJEE8&t=329s)
 2. [ROS (Robot Operating System)](http://wiki.ros.org/melodic/Installation/Ubuntu)
@@ -20,13 +26,8 @@ $ cd ~/catkin_ws/src/m2wr_description/
 $ mkdir launch
 $ mkdir urdf
 ```
-after that, you need to copy the contents from my [m2wr_description](https://github.com/shyammarjit/Multi-Agent-Robotics-MAR/tree/main/catkin_ws/src/m2wr_description) and paste those inside your m2wr_description folder.<br/>You need to check your catkin workspace content and whatever content are not present in your workspace just copy from my catkin workspace and paste it in the proper directory.
-For git cloning this repository use the following command
-<br/>
-```sh
-$ git clone https://github.com/shyammarjit/Multi-Agent-Robotics-MAR
-```
-
+after that, you need to copy the contents from my [worlds](https://github.com/shyammarjit/Multi-Agent-Robotics-MAR/tree/main/catkin_ws/src/worlds) folder to your folder.
+You need to copy the contents from my [launch](https://github.com/shyammarjit/Multi-Agent-Robotics-MAR/tree/main/catkin_ws/src/m2wr_description/launch) folder to your launch folder and also you need to copy the contents from my [urdf](https://github.com/shyammarjit/Multi-Agent-Robotics-MAR/tree/main/catkin_ws/src/m2wr_description/urdf) folder to your urdf folder.<br/>You need to check your catkin workspace content and whatever content are not present in your workspace just copy from my catkin workspace and paste it in the proper directory.
 6. check your [launch files](https://github.com/shyammarjit/Multi-Agent-Robotics-MAR/tree/main/catkin_ws/src/m2wr_description/launch)
 7. Launch rviz:
 ```sh
@@ -40,7 +41,7 @@ $ roslaunch gazebo_ros empty_world.launch
 
 9. Load our model:
 ```sh
-$ roslaunch m2wr_description spawn.launch 
+$ roslaunch m2wr_description spawn_m.launch 
 ```
 
 10. Run the following code in order to control the robot using the keyboard:
