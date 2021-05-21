@@ -65,7 +65,9 @@ and you should add the following lines to your bashrc script by running :
 $ gedit ~/.bashrc and add :
 $ source ~/catkin_ws/devel/setup.bash
 ```
-. Run the following code in order to control the robot using the keyboard:
+open terminal and run
+
+Run the following code in order to control the robot using the keyboard:
 ```sh
 $ rosrun teleop_twist_keyboard teleop_twist_keyboard.py
 ```
